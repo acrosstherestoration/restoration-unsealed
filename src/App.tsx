@@ -147,7 +147,7 @@ export default function App() {
             >
               <div className="absolute inset-0 bg-gold/5 -rotate-2 group-hover:rotate-0 transition-transform duration-700 rounded-sm"></div>
               <img 
-                src="first_vision.png" 
+                src={`${import.meta.env.BASE_URL}first_vision.png`}
                 alt="First Vision of the Restoration" 
                 className="relative z-10 w-full h-auto rounded-sm shadow-2xl border border-brand-border grayscale-[20%] hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
