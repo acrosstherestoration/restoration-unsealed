@@ -1,1 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", "Times New Roman", serif;
+  --font-sans: "Helvetica Neue", Arial, "Inter", sans-serif;
+
+  --color-paper: #F8F5F0;
+  --color-ink: #1B1B1B;
+  --color-olive: #5A6048;
+  --color-gold: #A68942;
+  --color-brand-border: #D1CEC2;
+  --color-brand-accent: #E8E4D9;
+}
+
+@layer base {
+  :root {
+    --color-paper: #F8F5F0;
+    --color-ink: #1B1B1B;
+    --color-brand-border: #D1CEC2;
+    --color-brand-accent: #E8E4D9;
+  }
+
+  :root.dark {
+    --color-paper: #1a1917;
+    --color-ink: #cfccbd;
+    --color-brand-border: #3a3834;
+    --color-brand-accent: #262522;
+    --color-olive: #a1a88b;
+    --color-gold: #c5a863;
+  }
+
+  body {
+    @apply bg-paper text-ink font-sans antialiased transition-colors duration-300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .animate-marquee {
+    display: inline-flex;
+    animation: marquee 40s linear infinite;
+  }
+
+  .animate-marquee:hover {
+    animation-play-state: paused;
+  }
+}
