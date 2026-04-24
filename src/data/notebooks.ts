@@ -35,4 +35,11 @@ export const notebooks: Notebook[] = [
     icon: "🛡️",
     category: "History"
   },
+  {
+    title: "Restoration Scriptures - Hebrew and Greek Scholar",
+    description: "Advanced scriptural research using Hebrew and Greek lexicons, linguistic analysis, and cultural commentaries to uncover deeper textual meanings.",
+    url: "https://notebooklm.google.com/notebook/71d7317c-8882-4d1b-8b0c-84b18faf6cd6",
+    icon: "🖋️",
+    category: "Scripture"
+  },
 ];
