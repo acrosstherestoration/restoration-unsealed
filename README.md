@@ -4,7 +4,7 @@
 
 A Digital Research Hub for RLDS History and Restoration Branch Theology.
 
-**Live Site:** [https://acrosstherestoration.github.io/restoration-unsealed/](https://acrosstherestoration.github.io/restoration-unsealed/)
+**Live Site:** [https://restorationunsealed.org/](https://restorationunsealed.org/)
 
 ## Overview
 
