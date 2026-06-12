@@ -19,6 +19,8 @@ The hub leverages **Google NotebookLM** to provide an intelligent, source-ground
 - **📖 Restoration Scriptures & Doctrine:** The Three Standard Books and official doctrinal expositions.
 - **🛡️ The Case for the Reorganization:** Legal history, authority, and rebuttals of historical departures.
 - **🖋️ Restoration Scriptures - Hebrew and Greek Scholar:** Advanced linguistic analysis using lexicons, linguistic analysis, and cultural commentaries.
+- **⚖️ Inspired Version and King James Version Comparison:** Joseph Smith's corrections, additions, and clarifications to the King James Bible text side-by-side.
+- **🔗 Restoration Scriptures & Doctrine (with LDS Cross References):** The Three Standard Books and official doctrinal expositions, with LDS-friendly versification included.
 
 ## Features
 

@@ -42,4 +42,18 @@ export const notebooks: Notebook[] = [
     icon: "🖋️",
     category: "Scripture"
   },
+  {
+    title: "Inspired Version and King James Version Comparison",
+    description: "Analyze Joseph Smith's corrections, additions, and clarifications to the King James Bible text side-by-side, diving into grammatical and theological refinements.",
+    url: "https://notebooklm.google.com/notebook/d28fc362-da08-4ddb-85bc-fa581f2b6b54",
+    icon: "⚖️",
+    category: "Scripture"
+  },
+  {
+    title: "Restoration Scriptures & Doctrine (with LDS Cross References)",
+    description: "An LDS-friendly versification of the Restoration Scriptures & Doctrine notebook.",
+    url: "https://notebooklm.google.com/notebook/258cc2e1-fcc3-42cf-bd57-036fac8cc78d",
+    icon: "🔗",
+    category: "Scripture"
+  },
 ];
